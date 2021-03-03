@@ -18,6 +18,8 @@ Third, too much computation.
 
     Layer mesh : cells:864806  faces:2848196  points:1120129
 
+Mesh sucessful.
+![img](fig/2021-03-03_12-09-49.png)
 
 #### If the commit is a bulk of water, what it looks like when a sonar scans it?
 #### If the commit is a bridge, what it looks like when a force applies to it?
