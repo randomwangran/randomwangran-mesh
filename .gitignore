@@ -1,0 +1,69 @@
+#######################
+*.obj
+*.swp
+
+
+####################### pre process
+*.skp
+
+
+####################### mesh
+processor*
+polyMesh
+
+
+####################### post process
+[0-9]*
+[0-9]*.*/
+[0-9]*/
+U
+*.dat
+*.csv
+log.*
+
+
+####################### emacs
+*~
+.#*
+*#
+
+
+####################### latex
+*.xml
+*.aux
+*.out
+*.lot
+*.bbl
+*.blg
+*.aux
+*.lof
+*.log
+*.toc
+_region_*
+**/auto
+
+
+####################### icem
+*.msh
+*.uns
+*.uns.bak
+
+
+####################### back up
+*.tar
+*.zip
+*.gz
+
+
+####################### Constantly updated doc
+/Progress.pdf
+/Progress.tex
+*.doc
+
+
+####################### figures
+*.eps
+*.pdf
+*.png
+*.mp4
+*.psd
