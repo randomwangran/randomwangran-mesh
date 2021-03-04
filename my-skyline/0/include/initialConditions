@@ -2,11 +2,11 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     | Website:  https://openfoam.org
-    \\  /    A nd           | Version:  7  
+    \\  /    A nd           | Version:  7
      \\/     M anipulation  |
 \*---------------------------------------------------------------------------*/
 
-flowVelocity         (20 0 0);
+flowVelocity         (0 20 0);
 pressure             0;
 turbulentKE          0.24;
 turbulentOmega       1.78;

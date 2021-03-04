@@ -10,7 +10,8 @@ FoamFile
     version     2.0;
     format      ascii;
     class       dictionary;
-    object      turbulenceProperties;
+    location    "constant";
+    object      RASProperties;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -18,11 +19,11 @@ simulationType RAS;
 
 RAS
 {
-    RASModel            kOmegaSST;
+    RASModel        SpalartAllmaras;
 
-    turbulence          on;
+    turbulence      on;
 
-    printCoeffs         on;
+    printCoeffs     on;
 }
 
 // ************************************************************************* //

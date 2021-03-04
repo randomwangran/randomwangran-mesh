@@ -13,7 +13,7 @@ cuttingPlane
     writeControl    writeTime;
 
     surfaceFormat   vtk;
-    fields          ( p U );
+    fields          (p U);
 
     interpolationScheme cellPoint;
 
