@@ -20,6 +20,19 @@ Third, too much computation.
 
 Mesh sucessful.
 ![img](fig/2021-03-03_12-09-49.png)
+##### mesh generation
+##### case setup
+To project to a plane at y=0.
+
+Use the Calculator filter to project each point (x, y, z) to (x, 0, z).
+
+Turn on Coordinate Results and set the expression to `coordsX*iHat + coordsZ*kHat`
+
+Use \`IntegrateVariables\` filter to give you a magic number.
+
+For my profile, the number is: 7591.94.
+
+
 
 #### If the commit is a bulk of water, what it looks like when a sonar scans it?
 #### If the commit is a bridge, what it looks like when a force applies to it?
