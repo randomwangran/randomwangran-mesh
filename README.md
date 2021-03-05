@@ -1,4 +1,4 @@
-<img src="banner.png" align="right">
+<img src="fig/randomwangran-post.png" align="right">
 
 #### If the commit is a rock, what it looks like when air blows it?
 I've say snappyHexMesh is smart! It kinda know what I was asking for.
